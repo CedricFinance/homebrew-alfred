@@ -1,6 +1,6 @@
 cask "alfred-uuid-generator" do
   version "1.0.0"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "a95734b0e0262b337f8cd55955bdbe6b8604884ecc70a6996a72dfeb923da203"
 
   url "https://github.com/packal/repository/raw/master/com.md.uuid/uuid_generator.alfredworkflow"
   name "alfred-uuid-generator"
