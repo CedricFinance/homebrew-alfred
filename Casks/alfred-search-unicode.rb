@@ -4,7 +4,7 @@ cask "alfred-search-unicode" do
 
   url "https://github.com/blueset/alfred-search-unicode/releases/download/v#{version}/Search.Unicode.alfredworkflow"
   livecheck do
-    url "https://github.com/blueset/alfred-search-unicode/releases"
+    url "https://github.com/blueset/alfred-search-unicode.git"
   end
   name "alfred-search-unicode"
   desc "Search Unicode is an Alfred 4 Workflow to lookup and reverse lookup Unicode characters and emoji with their names."

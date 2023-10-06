@@ -4,7 +4,7 @@ cask "alfred-epoch-converter" do
 
   url "https://github.com/snooze92/alfred-epoch-converter/releases/download/#{version}/epoch-converter-#{version.tr(".", "_")}.alfredworkflow"
   livecheck do
-    url "https://github.com/snooze92/alfred-epoch-converter/releases"
+    url "https://github.com/snooze92/alfred-epoch-converter.git"
   end
   name "alfred-epoch-converter"
   desc "Makes it easy to work with epoch timestamps!"

@@ -4,7 +4,7 @@ cask "alfred-emoji" do
 
   url "https://github.com/jsumners/alfred-emoji/releases/download/v#{version}/alfred-emoji.alfredworkflow"
   livecheck do
-    url "https://github.com/jsumners/alfred-emoji/releases"
+    url "https://github.com/jsumners/alfred-emoji.git"
   end
   name "alfred-emoji"
   desc "Alfred workflow for searching and copying emoji"

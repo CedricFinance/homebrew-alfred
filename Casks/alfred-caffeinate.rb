@@ -4,7 +4,7 @@ cask "alfred-caffeinate" do
 
   url "https://github.com/shawnrice/alfred-2-caffeinate-workflow/raw/master/Caffeinate%20Control.alfredworkflow"
   livecheck do
-    url "https://github.com/shawnrice/alfred-2-caffeinate-workflow/releases"
+    url "https://github.com/shawnrice/alfred-2-caffeinate-workflow.git"
   end
   name "alfred-caffeinate"
   desc "An Alfred2 workflow to control the system caffeinate utility (prevents sleep)."
