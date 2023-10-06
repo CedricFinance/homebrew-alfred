@@ -3,7 +3,9 @@ cask "alfred-epoch-converter" do
   sha256 "19ff4a7820491073ca4786c997a23199b6343123d4720904f4c57dfd99ff4f00"
 
   url "https://github.com/snooze92/alfred-epoch-converter/releases/download/#{version}/epoch-converter-#{version.tr(".", "_")}.alfredworkflow"
-  appcast "https://github.com/snooze92/alfred-epoch-converter/releases"
+  livecheck do
+    url "https://github.com/snooze92/alfred-epoch-converter/releases"
+  end
   name "alfred-epoch-converter"
   desc "Makes it easy to work with epoch timestamps!"
   homepage "https://github.com/snooze92/alfred-epoch-converter"

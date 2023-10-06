@@ -3,7 +3,9 @@ cask "alfred-emoji" do
   sha256 "6f985ad1aeae1d98c113bd020748a9f417b2dbf7963697116cb94c4ee8872013"
 
   url "https://github.com/jsumners/alfred-emoji/releases/download/v#{version}/alfred-emoji.alfredworkflow"
-  appcast "https://github.com/jsumners/alfred-emoji/releases"
+  livecheck do
+    url "https://github.com/jsumners/alfred-emoji/releases"
+  end
   name "alfred-emoji"
   desc "Alfred workflow for searching and copying emoji"
   homepage "https://github.com/jsumners/alfred-emoji"
